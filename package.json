@@ -1,0 +1,21 @@
+{
+    "name": "tslint-config-oberon",
+    "repository": "git@github.com:oberonamsterdam/tslint-config-oberon.git",
+    "version": "1.0.0",
+    "description": "Oberon's default tslint config",
+    "main": "oberon-tslint-config.json",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Oberon",
+    "license": "MIT",
+    "peerDependencies": {
+        "tslint": "^5.0.0",
+        "typescript": "^2.2.0"
+    },
+    "dependencies": {
+        "tslint-eslint-rules": "^5.1.0",
+        "tslint-react": "^3.5.1"
+    }
+}
