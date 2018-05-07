@@ -45,6 +45,7 @@
             "never-prefix"
         ],
         "jsdoc-format": true,
+        "jsx-boolean-value": ["never"],
         "jsx-no-lambda": false,
         "jsx-no-multiline-js": false,
         "jsx-curly-spacing": false,
