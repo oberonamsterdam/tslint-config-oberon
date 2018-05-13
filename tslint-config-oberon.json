@@ -5,6 +5,7 @@
         "tslint:recommended"
     ],
     "rules": {
+        "arrow-parens": false,
         "align": [
             true,
             "parameters",
