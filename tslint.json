@@ -3,8 +3,7 @@
         "tslint-react",
         "tslint-eslint-rules",
         "tslint:recommended",
-        "tslint-whitespace-before-colon",
-        "tslint-config-prettier"
+        "tslint-whitespace-before-colon"
     ],
     "rules": {
         "array-bracket-spacing": [
