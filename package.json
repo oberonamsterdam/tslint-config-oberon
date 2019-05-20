@@ -11,11 +11,12 @@
     "author": "Oberon",
     "license": "MIT",
     "peerDependencies": {
-        "tslint": "^5.0.0",
-        "typescript": "^2.2.0"
+        "tslint": "^5.16.0",
+        "typescript": "^3.4.5"
     },
     "dependencies": {
-        "tslint-eslint-rules": "^5.1.0",
-        "tslint-react": "^3.5.1"
+        "tslint-eslint-rules": "^5.4.0",
+        "tslint-react": "^4.0.0",
+        "tslint-whitespace-before-colon": "^0.2.0"
     }
 }
