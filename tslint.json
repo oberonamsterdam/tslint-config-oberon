@@ -21,6 +21,10 @@
                 "allowSingleLine": true
             }
         ],
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
         "interface-over-type-literal": true,
         "block-spacing": [
             true,
