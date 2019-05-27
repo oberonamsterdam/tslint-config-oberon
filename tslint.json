@@ -2,17 +2,17 @@
     "extends": [
         "tslint-react",
         "tslint-eslint-rules",
-        "tslint:recommended"
+        "tslint:recommended",
+        "tslint-whitespace-before-colon",
+        "tslint-react-hooks"
     ],
     "rules": {
+        "array-bracket-spacing": [
+            true,
+            "never"
+        ],
         "arrow-parens": false,
         "arrow-return-shorthand": true,
-        "align": [
-            true,
-            "parameters",
-            "arguments",
-            "statements"
-        ],
         "member-access": false,
         "ban": false,
         "brace-style": [
@@ -22,6 +22,11 @@
                 "allowSingleLine": true
             }
         ],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
+        "interface-over-type-literal": true,
         "block-spacing": [
             true,
             "always"
@@ -43,40 +48,23 @@
             true,
             "spaces"
         ],
-        "interface-name": [
-            true,
-            "never-prefix"
-        ],
         "jsdoc-format": true,
-        "jsx-boolean-value": ["never"],
+        "jsx-boolean-value": [
+            "never"
+        ],
         "jsx-no-lambda": false,
         "jsx-no-multiline-js": false,
         "jsx-curly-spacing": false,
         "label-position": true,
         "max-line-length": [
-            false,
+            true,
             120
         ],
-        "member-ordering": [
-            true,
-            "public-before-private",
-            "static-before-instance",
-            "variables-before-functions"
-        ],
         "new-parens": true,
-        "no-any": false,
+        "no-any": true,
         "no-arg": true,
         "no-bitwise": true,
-        "no-console": [
-            false,
-            "log",
-            "error",
-            "debug",
-            "info",
-            "time",
-            "timeEnd",
-            "trace"
-        ],
+        "no-console": true,
         "no-consecutive-blank-lines": [
             true
         ],
@@ -114,7 +102,10 @@
             "check-open-brace",
             "check-whitespace"
         ],
-        "prefer-template": [true, "allow-single-concat"],
+        "prefer-template": [
+            true,
+            "allow-single-concat"
+        ],
         "quotemark": [
             true,
             "single",
@@ -122,7 +113,12 @@
         ],
         "radix": true,
         "semicolon": [
-            true, "always"
+            true,
+            "always"
+        ],
+        "space-before-function-paren": [
+            true,
+            "always"
         ],
         "switch-default": true,
         "ter-arrow-spacing": [
@@ -141,7 +137,13 @@
         "trailing-comma": [
             true,
             {
-                "singleline": "never"
+                "singleline": "never",
+                "multiline": {
+                    "objects": "always",
+                    "arrays": "always",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                }
             }
         ],
         "triple-equals": [
@@ -163,6 +165,7 @@
                 "variable-declaration": "nospace"
             }
         ],
+        "react-hooks-nesting": "error",
         "space-in-parens": [
             true,
             "never"
@@ -185,6 +188,10 @@
             "check-typecast",
             "check-type-operator",
             "check-preblock"
+        ],
+        "whitespace-before-colon": [
+            true,
+            "nospace"
         ]
     }
 }
