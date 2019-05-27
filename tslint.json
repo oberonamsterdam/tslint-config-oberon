@@ -3,7 +3,8 @@
         "tslint-react",
         "tslint-eslint-rules",
         "tslint:recommended",
-        "tslint-whitespace-before-colon"
+        "tslint-whitespace-before-colon",
+        "tslint-react-hooks"
     ],
     "rules": {
         "array-bracket-spacing": [
@@ -164,6 +165,7 @@
                 "variable-declaration": "nospace"
             }
         ],
+        "react-hooks-nesting": "error",
         "space-in-parens": [
             true,
             "never"
