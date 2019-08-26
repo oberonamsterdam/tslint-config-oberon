@@ -4,9 +4,12 @@
         "tslint-eslint-rules",
         "tslint:recommended",
         "tslint-whitespace-before-colon",
-        "tslint-react-hooks"
+        "tslint-react-hooks",
+        "tslint-config-prettier"
     ],
+    "rulesDirectory": "tslint-plugin-prettier",
     "rules": {
+        "prettier": true,
         "array-bracket-spacing": [
             true,
             "never"
