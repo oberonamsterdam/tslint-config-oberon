@@ -47,4 +47,14 @@ Optionally, add tslint as a precommit hook by installing [husky](https://github.
           "precommit": "tslint --project ."  
       }
 }
+
+```
+### Optional prettier setup:
+
+In order to enforce good practices concerning code quality, it is adviced to let prettier do the code formatting and tslint the semantics and syntactics. To install prettier please follow the readme of the [oberon-config-prettier](https://github.com/oberonamsterdam/prettier-config-oberon). To resolve conflicts between tslint and prettier you also need to install tslint-config-prettier (`npm i tslint-config-prettier`) and add it to the `tslint.json` file:
+
+```json
+{
+    "extends": ["tslint-config-oberon", "tslint-config-prettier"]
+}
 ```
