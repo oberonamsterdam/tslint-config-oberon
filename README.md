@@ -38,8 +38,8 @@ Add a `tslint.json` file to your project:
 }
 ```
 
-Install tslint & tslint-config-oberon locally (`npm i tslint tslint-config-oberon`)
-Optionally, add tslint as a precommit hook by installing [husky](https://github.com/typicode/husky) (`npm i husky`) and adding a `precommit` script to your package.json `scripts`:
+Install tslint & tslint-config-oberon locally (`npm i -D tslint tslint-config-oberon`)
+Optionally, add tslint as a precommit hook by installing [husky](https://github.com/typicode/husky) (`npm i -D husky`) and adding a `precommit` script to your package.json `scripts`:
 ```json
 {
       "scripts": {
@@ -51,7 +51,7 @@ Optionally, add tslint as a precommit hook by installing [husky](https://github.
 ```
 ### Optional prettier setup:
 
-In order to enforce good practices concerning code quality, it is advised to let prettier handle the code formatting and tslint the semantics and syntax. To install prettier please follow the readme of the [oberon-config-prettier](https://github.com/oberonamsterdam/prettier-config-oberon). To resolve conflicts between tslint and prettier you also need to install tslint-config-prettier (`npm i tslint-config-prettier`) and add it to the `tslint.json` file:
+In order to enforce good practices concerning code quality, it is advised to let prettier handle the code formatting and tslint the semantics and syntax. To install prettier please follow the readme of the [oberon-config-prettier](https://github.com/oberonamsterdam/prettier-config-oberon). To resolve conflicts between tslint and prettier you also need to install tslint-config-prettier (`npm i -D tslint-config-prettier`) and add it to the `tslint.json` file:
 
 ```json
 {
