@@ -7,7 +7,6 @@
         "tslint-react-hooks",
         "tslint-config-prettier"
     ],
-    "rulesDirectory": "tslint-plugin-prettier",
     "rules": {
         "prettier": true,
         "array-bracket-spacing": [
