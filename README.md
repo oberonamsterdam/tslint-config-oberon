@@ -1,3 +1,6 @@
+> ⚠️ DEPRECATED ☣️: Use [eslint-config-oberon](https://github.com/oberonamsterdam/eslint-config-oberon) instead.
+
+
 # Oberon TSlint config & standard
 
 The Oberon typescript code standard & config.
